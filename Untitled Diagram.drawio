@@ -5,22 +5,25 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="HU4TRK4CpS0P90ndItaQ-2" value="Pawn Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HU4TRK4CpS0P90ndItaQ-3" value="HUD Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="390" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HU4TRK4CpS0P90ndItaQ-4" value="Player Controller Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="640" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HU4TRK4CpS0P90ndItaQ-5" target="6r_PHCcJdkS4bBOd85Ro-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HU4TRK4CpS0P90ndItaQ-5" value="Player State Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HU4TRK4CpS0P90ndItaQ-6" value="Game State Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="520" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6r_PHCcJdkS4bBOd85Ro-0" value="The pawn is the base class for all actors controlled by the players or AI. A character is a pawn with a unique movement. The inheritance of a pawn may be a character, vehicle, or pawn." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="230" width="160" height="160" as="geometry" />
+          <mxGeometry x="10" y="230" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="6r_PHCcJdkS4bBOd85Ro-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HU4TRK4CpS0P90ndItaQ-2" target="6r_PHCcJdkS4bBOd85Ro-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -29,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6r_PHCcJdkS4bBOd85Ro-3" value="The HUD class is the inheritance of every human-controlled player with its instance to the player&#39;s Viewport." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="245" width="200" height="70" as="geometry" />
+          <mxGeometry x="400" y="250" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6r_PHCcJdkS4bBOd85Ro-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.395;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HU4TRK4CpS0P90ndItaQ-3" target="6r_PHCcJdkS4bBOd85Ro-3">
           <mxGeometry relative="1" as="geometry" />
@@ -43,13 +46,28 @@
         <mxCell id="6r_PHCcJdkS4bBOd85Ro-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6r_PHCcJdkS4bBOd85Ro-6" target="HU4TRK4CpS0P90ndItaQ-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6r_PHCcJdkS4bBOd85Ro-6" target="HU4TRK4CpS0P90ndItaQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6r_PHCcJdkS4bBOd85Ro-6" target="HU4TRK4CpS0P90ndItaQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6r_PHCcJdkS4bBOd85Ro-6" value="Actor class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="350" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6r_PHCcJdkS4bBOd85Ro-10" value="An interface is a pawn and a human player controlling it. Inheritance is the Player Controller making decisions and issuing the command to the pawn. Within the inheritance class is the Player Controller or AI. All the human players in the game contain an instance assigned to each individual." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="200" width="170" height="170" as="geometry" />
+          <mxGeometry x="690" y="190" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="6r_PHCcJdkS4bBOd85Ro-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.353;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HU4TRK4CpS0P90ndItaQ-4" target="6r_PHCcJdkS4bBOd85Ro-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-12" value="Participation in a game would be a human player. Inheritance is in each player&#39;s state class with their name, player&#39;s score, or the human player or bot with the flag in CTF." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="240" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-15" value="The Game State class consists of the following list of connected players, the score, the positioning of the chess board pieces, or the list of completed missions." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="360" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HU4TRK4CpS0P90ndItaQ-6" target="6r_PHCcJdkS4bBOd85Ro-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
