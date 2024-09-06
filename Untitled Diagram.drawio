@@ -4,20 +4,47 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="HU4TRK4CpS0P90ndItaQ-2" value="Pan Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="HU4TRK4CpS0P90ndItaQ-2" value="Pawn Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HU4TRK4CpS0P90ndItaQ-3" value="HUD Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="414" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="HU4TRK4CpS0P90ndItaQ-3" value="HUD Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="390" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HU4TRK4CpS0P90ndItaQ-4" value="Player Controller Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="HU4TRK4CpS0P90ndItaQ-4" value="Player Controller Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="640" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HU4TRK4CpS0P90ndItaQ-5" value="Player State Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="370" width="120" height="60" as="geometry" />
+        <mxCell id="HU4TRK4CpS0P90ndItaQ-5" value="Player State Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HU4TRK4CpS0P90ndItaQ-6" value="Game State Class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="HU4TRK4CpS0P90ndItaQ-6" value="Game State Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="520" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-0" value="The pawn is the base class for all actors controlled by the players or AI. A character is a pawn with a unique movement. The inheritance of a pawn may be a character, vehicle, or pawn." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="230" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HU4TRK4CpS0P90ndItaQ-2" target="6r_PHCcJdkS4bBOd85Ro-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-3" value="The HUD class is the inheritance of every human-controlled player with its instance to the player&#39;s Viewport." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="245" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.395;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HU4TRK4CpS0P90ndItaQ-3" target="6r_PHCcJdkS4bBOd85Ro-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6r_PHCcJdkS4bBOd85Ro-6" target="HU4TRK4CpS0P90ndItaQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6r_PHCcJdkS4bBOd85Ro-6" target="HU4TRK4CpS0P90ndItaQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6r_PHCcJdkS4bBOd85Ro-6" target="HU4TRK4CpS0P90ndItaQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6r_PHCcJdkS4bBOd85Ro-6" value="Actor class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="10" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
